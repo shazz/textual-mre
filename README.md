@@ -8,9 +8,11 @@ uv run python main.py
 
 ## Concept
 
-2 screens: 
+1 App, 2 screens: 
  - Main
  - Load which is in fact a modal dialog to enter a local path
+
+Idea: screens use messages thru the App to communicate data from one to the other
 
 Process: 
 1. The App loads the Main screen, using 'l' the user can select a path
