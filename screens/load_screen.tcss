@@ -1,0 +1,28 @@
+LoadScreen {
+    align: center middle;
+}
+
+#dialog {
+    layout: grid;
+    grid-size: 2 2;
+    grid-rows: 3 3;
+    padding: 1 1 0 1;
+    width: 60;
+    height: 9;
+    border: solid white 70%;
+    background: $surface;
+}
+
+#input {
+    column-span: 2;
+    border: solid white 70%;
+    padding: 0;
+    margin: 0;
+}
+
+#ok, #cancel {
+    width: 100%;
+    padding: 0;
+    margin: 0 1 0 1;
+    # border: none
+}
