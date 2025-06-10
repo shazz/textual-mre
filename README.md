@@ -1,12 +1,12 @@
-MRE for textual issues with messages between Screns
+# MRE for textual issues with messages between Screns
 
-# installation
+## installation
 ```
 uv sync
 uv run python main.py
 ```
 
-# Concept
+## Concept
 
 2 screens: 
  - Main
@@ -19,7 +19,7 @@ Process:
 4. The App retrieves the Main Screen to call update_tree with the received data => **this is where it crashes, cannot find the Main Screen**
 5. the Main Screen updates its Tree
 
-# How to reproduce the issue:
+## How to reproduce the issue:
 
 1. Press "l"
 2. Press enter or cick OK
