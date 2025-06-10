@@ -19,6 +19,8 @@ Process:
 4. The App retrieves the Main Screen to call update_tree with the received data => **this is where it crashes, cannot find the Main Screen**
 5. the Main Screen updates its Tree
 
+Looks like the App receiving the mesasge is a different instance?
+
 ## How to reproduce the issue:
 
 1. Press "l"
